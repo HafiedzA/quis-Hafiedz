@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hot1">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="267dp"
+        android:layout_height="176dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.116"
+        app:srcCompat="@drawable/tinju1" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="322dp"
+        android:layout_height="244dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Gelar juara kelas ringan UFC milik Khabib Nurmagomedov terancam dicabut karena kerusuhan yang terjadi usai petarung asal Rusia itu mengalahkan Conor McGregor di T-Mobile Arena, Las Vegas, Minggu (7/10) siang WIB. Khabib menaklukkan petarung asal Republik Irlandia tersebut pada ronde keempat melalui submission atau kuncian. Namun usai laga, juara bertahan tersebut melompati pagar oktagon untuk menyerang salah satu tim McGregor. Usai pertarungan Khabib mengungkapkan kegeraman pada kubu McGregor yang berada di luar oktagon. Petarung asal Rusia itu melempar pelindung gigi, melompati pagar oktagon, dan mulai menyerang secara membabi buta."
+        android:textSize="12sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+</android.support.constraint.ConstraintLayout>

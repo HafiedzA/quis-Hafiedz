@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hot3">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="254dp"
+        android:layout_height="183dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.602"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.062"
+        app:srcCompat="@drawable/palu1" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="334dp"
+        android:layout_height="295dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text='tirto.id - Lumpur mulai mengering ketika saya melintasi Jalan Trans Sulawesi, tepat di Kelurahan Loly Salura, Kabupaten Donggala, Rabu (3/10/2018) pekan lalu. Di sepanjang jalan hingga memasuki area perkantoran Bupati Donggala, orang-orang menjulurkan kardus kosong sebagai wadah buat meminta sumbangan. Tenda-tenda pengungsian bertebaran yang tulisannya bernada sama: "kami butuh bantuan. "Tenda pengungsian itu berjejer berdiri di sepanjang Kecamatan Palu Barat, Kota Palu, hingga Kabupaten Donggala. Mereka terpaksa mengemis sumbangan karena belum menerima sepeser pun bantuan baik dari pemerintah pusat atau daerah, padahal gempa dan tsunami sudah berlalu lima hari. "Kalau kami tidak turun, kami tidak dapat bantuan," ujar Yunus El Malilu. Yunus adalah salah seorang korban gempa. Ia terpaksa turun dari perbukitan dan memboyong keluarganya ke tepi Jalan Trans Sulawesi, tak jauh dari rumahnya yang hilang diterjang tsunami. Di sana, ia mendirikan tenda dengan alat seadanya. '
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+</android.support.constraint.ConstraintLayout>

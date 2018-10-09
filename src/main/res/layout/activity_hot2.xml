@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hot2">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="264dp"
+        android:layout_height="185dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.088"
+        app:srcCompat="@drawable/jokowi1" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="316dp"
+        android:layout_height="260dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Liputan6.com, Jakarta - Cucu pertama Jokowi, Jan Ethes, memang selalu bisa menarik perhatian masyarakat Tanah Air. Tingkahnya yang lucu dan menggemaskan membuat Ethes diidolakan banyak orang. Kini, Jan Ethes kembali menjadi sorotan setelah menunjukkan ekspresi tak terduga ketika bertemu dengan anak Kahiyang Ayu, Sedah Mirah Nasution. Dalam sebuah foto yang awalnya diunggah oleh Kahiyang di Insta Story-nya, lalu diunggah ulang oleh akun @kahiyanggbobby, terlihat sebuah potret kebersamaan antara cucu pertama dan kedua Jokowi. Tak sekadar menampakkan kebersamaan, foto tersebut juga memperlihatkan tingkah Jan Ethes yang begitu menggemaskan. Ia mengecup sebelah pipi Sedah Mirah yang tengah tertidur telentang. Berikut potret Jan Ethes dan Sedah Mirah dirangkum dari akun Instagram @kahiyanggbobby."
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+</android.support.constraint.ConstraintLayout>
